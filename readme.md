@@ -2,7 +2,7 @@
 
 ##### A set of basic scripts that let you create embeddings, store them in json, and retrieve them 
 
-To get started run 
+To get started clone the repo and run 
 
 ```
 pip install -r requirements.txt
