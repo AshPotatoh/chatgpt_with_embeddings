@@ -1,6 +1,6 @@
 ## GPT With Embeddings
 
-##### A set of basic scripts that let you create embeddings, store them in json, and retrieve them 
+#### A set of basic scripts that let you create embeddings, store them in json, and retrieve them 
 
 To get started clone the repo and run 
 
@@ -12,11 +12,11 @@ To install the necessary pip requirements.
 
 I have commented the code so it should be fairly simple.  
 
-##### Scraping
+#### Scraping
 
 scraper.py is a selenium scraper, feel free to use it and input your own URL and disallowed words to filter it.  Currently it is set to grab the id 'main'. If you want to change that, the code for writing to the text files starts on line 67. This is fully commented in the code as well.
 
-##### Get your embeddings
+#### Get your embeddings
 
 Now that you got a bunch of  text files, if they're not already in a folder labled 'data', move them into a data folder. At the same time create a folder named storage. This folder will hold your embeddings.
 
@@ -25,7 +25,7 @@ run `python3 get_embeddings.py` and it should grab them. These are really cheap.
 - You didn't set you ENV variables (name should be OPENAI_API_KEY)
 - You don't have a paid OpenAI account. 
 
-##### Lets talk to the bot
+#### Lets talk to the bot
 
 It is time! 
 
